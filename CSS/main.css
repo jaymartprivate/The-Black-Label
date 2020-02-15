@@ -1,0 +1,240 @@
+@font-face{
+    src: url(../font/PRIMETIME\ ╕\ PERSONAL\ USE\ ONLY.ttf);
+    font-family: "Primetime";
+}
+@font-face{
+    src: url(../font/Montserrat/Montserrat-Regular.ttf);
+    font-family: "Montserrat";
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: white;
+}
+.Heading{
+    text-align: center;
+    background : url(../img/nn.jpg);
+    background-size: cover;
+    width: 1490px;
+    height: 600px;
+}
+#kpoop{
+    display: inline-block;
+    margin: auto;
+    width: 1000px;
+    height: 700px;
+    display: block;
+    bottom: 60px;
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(255, 0, 128);
+    position: relative;
+    bottom: 100px;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: inline-block;
+    margin: auto;
+    color: rgb(255, 168, 209);
+    text-align: center;
+    padding: 25px 25px;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: "Montserrat"; 
+  }
+  
+  li a:hover {
+    background-color:whitesmoke;
+  } 
+#picture{
+    display: block;
+    margin-top: 300px;
+    margin-left: 250px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 30%;
+  }
+#introduction{
+    text-align: center;
+    color: black;
+    font-size: 25px;
+    font-style: normal;
+    font-family: "Montserrat";
+    margin-bottom: 100px;
+    margin-right: 100px;
+    margin-left: 100px;
+    
+}
+#Jisso, #Jen, #Lisa, #Rose{
+    width: 500px;
+    display: block;
+    margin: auto;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    border-radius: 20%;
+}
+#prof, #bl{
+    font-size: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family: "Primetime";
+    -webkit-text-stroke-color: rgb(255, 28, 141);
+    -webkit-text-stroke-width: 2px;
+
+}
+.Profile{
+    text-align: center;
+    font-size: 20px;
+}
+#Lis, #Jenn, #Ros, #Jis, #deve, #get{
+    text-align: center;
+    font-size: 40px;
+    font-family: "Primetime";
+    padding-bottom:30px;
+    -webkit-text-stroke-color: rgb(255, 0, 128);
+    -webkit-text-stroke-width: 2px;
+}
+.footer{
+    margin-top: 100px;
+    text-align: center;
+    padding:40px 0 ;
+    font-family: serif;
+    background: rgb(255, 0, 128);
+}
+#theend{
+    font-size: 15px;
+    color: rgb(255, 168, 209);
+}
+
+#title, #blinks{
+    text-align: center;
+    font-size: 90px;
+    font-family: "Primetime";
+    color: rgb(255, 0, 128);
+    padding-top: 250px;
+    padding-bottom: 320px;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 2px;
+
+}
+#content{
+    text-align: center;
+    padding: 60px;
+    font-size: 30px;
+    margin-bottom: 100px;
+    margin-top: 200px;
+    padding-left: 200px;
+    padding-right: 150px;
+}
+.dev{
+    padding-top: 25px;
+    line-height: 50px;
+    text-align: center;
+}
+#contact{
+    text-align: center;
+    padding-bottom: 60px;
+    padding-top: 0px;
+    font-size: 30px;
+}
+#giphy, #giphyy, #cute{
+    padding-top: 70px;
+    width: 250px;
+    height: 250px;
+    display: block;
+    margin: auto;
+}
+
+.Blinks_Profile{
+    text-align: center;
+    color: black;
+    font-family: "Montserrat";
+    font-size: 15px;
+    padding-top: 100px;
+
+}
+#alea, #jenny, #mazon, #princess, #vanessa{
+    width: 400px;
+    height: 250px;
+    border-radius: 10%;
+    border: rgb(255, 0, 128) solid 7px;
+    position: relative;
+    right: 380px;
+}
+#alea_name, #jenny_name, #mazon_name, #princess_name, #vanessa_name{
+    padding-top: 20px;
+    position: relative;
+    right: 380px;
+}
+#alea_age, #jenny_age, #mazon_age, #princess_age, #vanessa_age{
+    position: relative;
+    right: 380px;
+}
+
+
+#alea_department, #jenny_department, #mazon_department, #princess_department, #vanessa_department{
+    padding-bottom: 100px;
+    position: relative;
+    right: 380px;
+}
+
+#aleah, #jen, #princes,#mazo, #vanne{
+  width: 250px;
+  height: 300px;
+ 
+}
+
+.Playlist{
+  width: 600px;
+  height: 1000px;
+  border-radius: 20px;
+  border: rgb(255, 0, 128) solid 7px;
+  position: relative;
+  left: 700px;
+  bottom: 1450px;
+  margin-bottom: -700px;
+}
+#aleah{
+    position: relative;
+    top: 20px;
+    right: 2rem;
+}
+#jen{
+    position: relative;
+    top: 20px;
+    left: 2rem;
+}
+#mazo{
+    position: relative;
+    top: 50px;
+    right: 2rem;
+}
+#vanne{
+    position: relative;
+    top: 45px;
+    left: 2rem;
+}
+#princes{
+    position: relative;
+    top: 70px;
+    left: 0rem;
+}
+
+.Introduction{
+    text-align: center;
+    color: black;
+    font-family: "Montserrat";
+    font-size: 20px;
+    padding: 50px;
+}

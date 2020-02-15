@@ -1,0 +1,35 @@
+body{
+    text-align: center;
+    background-color: rgb(197, 108, 125);
+    font-size: 35px;
+    
+    
+
+}
+.body{
+    text-align: center;
+}
+
+#title{
+    background: url(../img/Untitled-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 100px;
+    margin-top: 0px;
+    color: rgb(197, 108, 125);
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1px;
+}
+#content{
+    text-align: center;
+    padding: 20px;
+    font-size: 25px;
+    margin-bottom: 50px;
+    margin-top: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+#dev{
+    padding: 100px;
+
+}

@@ -1,0 +1,142 @@
+@font-face{
+    src: url(../font/PRIMETIME\ ╕\ PERSONAL\ USE\ ONLY.ttf);
+    font-family: "Primetime";
+}
+@font-face{
+    src: url(../font/Montserrat/Montserrat-Regular.ttf);
+    font-family: "Montserrat";
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#blinks{
+    background: black;
+    padding: 100px;
+    text-align: center;
+    font-family: "Primetime";
+    color: pink;
+    font-size: 50px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:pink;
+    text-align: center;
+}
+  
+li {
+    float: left;
+}
+  
+li a {
+    display: inline-block;
+    margin: auto;
+    color: black;
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Primetime"; 
+}
+  
+li a:hover {
+    background-color:white;
+}
+
+.Blinks_Profile{
+    text-align: center;
+    color: black;
+    font-family: "Montserrat";
+    font-size: 15px;
+    padding-top: 100px;
+
+}
+#alea, #jenny, #mazon, #princess, #vanessa{
+    width: 400px;
+    height: 250px;
+    border-radius: 10%;
+    border: pink solid 7px;
+    position: relative;
+    right: 380px;
+}
+#alea_name, #jenny_name, #mazon_name, #princess_name, #vanessa_name{
+    padding-top: 20px;
+    position: relative;
+    right: 380px;
+}
+#alea_age, #jenny_age, #mazon_age, #princess_age, #vanessa_age{
+    position: relative;
+    right: 380px;
+}
+
+
+#alea_department, #jenny_department, #mazon_department, #princess_department, #vanessa_department{
+    padding-bottom: 100px;
+    position: relative;
+    right: 380px;
+}
+.footer{
+    text-align: center;
+    padding: 25px 0;
+    background: pink;
+    background-size: cover;
+}
+#aleah, #jen, #princes,#mazo, #vanne{
+  width: 250px;
+  height: 300px;
+ 
+}
+
+.Playlist{
+  width: 600px;
+  height: 1000px;
+  background: rgba(0, 0, 0, 0.24);
+  border-radius: 20px;
+  border: pink solid 7px;
+  position: relative;
+  left: 700px;
+  bottom: 1450px;
+  margin-bottom: -700px;
+}
+#aleah{
+    position: relative;
+    top: 20px;
+    left: 1rem;
+}
+#jen{
+    position: relative;
+    top: 20px;
+    left: 5rem;
+}
+#mazo{
+    position: relative;
+    top: 50px;
+    left: 1rem;
+}
+#vanne{
+    position: relative;
+    top: 45px;
+    left: 5rem;
+}
+#princes{
+    position: relative;
+    top: 70px;
+    left: 10rem;
+}
+
+.Introduction{
+    text-align: center;
+    color: black;
+    font-family: "Montserrat";
+    font-size: 20px;
+    padding: 50px;
+}
+#cute{
+    position: relative;
+    left: 400px;
+    bottom: 300px;
+}
